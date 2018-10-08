@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.personal.mason</groupId>
+        <artifactId>code-machine-framework-bom</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>code-machine-framework-bom/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>code-machine-framework</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>code-machine-framework-bom</module>
+        <module>code-machine-framework-frontend</module>
+        <module>code-machine-framework-core</module>
+        <module>code-machine-framework-slots</module>
+        <module>code-machine-framework-features</module>
+        <module>code-machine-framework-generator</module>
+        <module>code-machine-framework-builder</module>
+    </modules>
+
+
+</project>
