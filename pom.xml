@@ -16,7 +16,7 @@
 
     <modules>
         <module>code-machine-framework-bom</module>
-        <module>code-machine-framework-frontend</module>
+        <!--<module>code-machine-framework-frontend</module>-->
         <module>code-machine-framework-core</module>
         <module>code-machine-framework-slots</module>
         <module>code-machine-framework-features</module>

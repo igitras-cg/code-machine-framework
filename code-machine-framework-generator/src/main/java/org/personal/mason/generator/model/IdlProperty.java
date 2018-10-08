@@ -7,14 +7,8 @@ import java.util.List;
  *
  * @author mason
  */
-public interface IdlProperty {
+public interface IdlProperty extends IdlNameable {
 
-    /**
-     * Get the property name.
-     *
-     * @return property name
-     */
-    String getName();
 
     /**
      * Get the property type.
@@ -24,9 +18,25 @@ public interface IdlProperty {
     IdlPropertyType getType();
 
     /**
+     * Get the Enum model.
+     *
+     * @return enum model
+     */
+    IdlEnum getEnum();
+
+    /**
      * Get the property validations.
      *
      * @return property validations
      */
     List<IdlValidation> getValidations();
+
+    /**
+     * Check if the property is reference to an enum.
+     *
+     * @return is enum
+     */
+    default boolean isEnum() {
+        return IdlPropertyType.IdlEnum.equals(getType());
+    }
 }
