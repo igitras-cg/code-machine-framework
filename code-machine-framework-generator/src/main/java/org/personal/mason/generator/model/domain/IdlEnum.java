@@ -1,4 +1,6 @@
-package org.personal.mason.generator.model;
+package org.personal.mason.generator.model.domain;
+
+import org.personal.mason.generator.model.IdlNameable;
 
 import java.util.List;
 

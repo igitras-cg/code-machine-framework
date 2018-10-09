@@ -1,8 +1,8 @@
-package org.personal.mason.generator.model;
+package org.personal.mason.generator.model.domain;
 
 import java.util.Set;
 
-import static org.personal.mason.generator.model.IdlValidationType.*;
+import static org.personal.mason.generator.model.domain.IdlValidationType.*;
 
 public enum IdlPropertyType {
     String {

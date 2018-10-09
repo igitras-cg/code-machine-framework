@@ -1,4 +1,4 @@
-package org.personal.mason.generator.model;
+package org.personal.mason.generator.model.domain;
 
 public enum IdlValidationType {
     Required(false, false),
