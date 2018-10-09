@@ -30,7 +30,7 @@ public interface IdlModule extends IdlModuleBase, IdlModuleHierarchy {
      *
      * @return packaging type
      */
-    Packaging getPackaging();
+    IdlPackaging getPackaging();
 
     /**
      * Get the working directory.

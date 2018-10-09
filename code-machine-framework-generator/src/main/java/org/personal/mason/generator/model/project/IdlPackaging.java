@@ -1,6 +1,6 @@
 package org.personal.mason.generator.model.project;
 
-public enum Packaging {
+public enum IdlPackaging {
     Jar,
     Pom
 }
